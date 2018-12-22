@@ -1,0 +1,136 @@
+@import"https://fonts.googleapis.com/css?family=Cabin+Sketch|Quicksand";
+
+body{
+	font-family: 'Quicksand',sans-serif;
+	background-color: black;
+}
+#container{
+	width: 1000px;
+	height: 550px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(bgImg.jpg);
+	margin: 20px auto;	
+}
+#calculator{
+	width: 320px;
+	height: 520px;
+	background-color: white;
+	margin: 0 auto;
+	top: 20px;
+	position: center;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+	height: 120px;
+  color: black;
+  font-family: Quicksand, sans-serif;
+}
+#history{
+	text-align: right;
+	height: 5px;
+	margin: 30px;
+	padding-top: 10px;
+	font-size: 15px;
+	color: #ccc;
+}
+#output{
+	text-align: right;
+	height: 40px;
+	margin: 30px;
+	font-size: 40px;
+}
+#keyboard{
+	height: 400px;
+}
+.span{
+	font-family:Quicksand
+  font-size: 10px;
+  color: #ccc;
+}
+.operator, .number, .empty{
+	width: 55px;
+	height: 55px;
+	margin: 11px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-size: 22px;
+  font-family: Quicksand, sans-serif;
+}
+.number, .empty{
+	background-color: white;
+}
+.number, .operator{
+	cursor: pointer;
+}
+.operator:active, .number:active{
+	font-size: 13px;
+}
+.operator:focus, .number:focus, .empty:focus{
+	outline: 0;
+}
+button:nth-child(1){
+	font-size: 20px;
+  font-weight: bold;
+	background-color: #FFB6C1;
+}
+button:nth-child(2){
+	font-size: 20px;
+  font-weight: bold;
+	background-color: #ffeaea;
+}
+
+button:nth-child(3){
+	font-size: 20px;
+  font-weight: bold;
+	background-color: #ffeaea;
+}
+button:nth-child(4){
+	font-size: 20px;
+  font-weight: bold;
+	background-color: #ffeaea;
+}
+button:nth-child(8){
+	font-size: 20px;
+  font-weight: bold;
+	background-color: #ffeaea;
+}
+button:nth-child(12){
+	font-size: 20px;
+  font-weight: bold;
+	background-color: #ffeaea;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #ffeaea;
+  font-weight: bold;
+}
+
+button:nth-child(17){
+	font-size: 20px;
+	background-color: white;
+  font-weight: bold;
+  margin: 10px;
+  margin-top: 15px;
+}
+
+button:nth-child(18){
+	font-size: 20px;
+	background-color: white;
+  font-weight: ;
+  margin: 20px;
+}
+
+button:nth-child(19){
+	font-size: 20px;
+	background-color: #FFB6C1;
+  font-weight: bold;
+  margin-top: 20px;
+  width: 110px;
+  height: 45px;
+  border-radius: 43%;
+  grid-area: equal;
+  }
+}
+  
+}
