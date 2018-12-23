@@ -19,6 +19,10 @@ button {
     color: black;
   }
 
+  button:hover{
+      background:#FFFAFA
+  }
+
 
 #container{
 	width: 1000px;
