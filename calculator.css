@@ -5,10 +5,24 @@ body{
 	background-color: black;
 }
 
+h2{
+    font-family: Quicksand;
+    font-size: 16px;
+}
+
+button {
+    margin: 5px;
+    padding: 1px;
+    background-color: white;
+    font-family: 'Quicksand';
+    border-radius: 35%;
+    color: black;
+  }
+
 
 #container{
 	width: 1000px;
-    height: 550px;
+    height: 750px;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://pbs.twimg.com/profile_images/984020634329075717/eSTnqTiA_400x400.jpg);
     margin: 20px auto;	
 }
@@ -136,5 +150,6 @@ button:nth-child(19){
   grid-area: equal;
   }
 }
+
   
 }
