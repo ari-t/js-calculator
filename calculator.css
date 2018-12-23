@@ -8,10 +8,11 @@ body{
 
 #container{
 	width: 1000px;
-	height: 550px;
-	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://pbs.twimg.com/profile_images/984020634329075717/eSTnqTiA_400x400.jpg);
-	margin: 20px auto;	
+    height: 550px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://pbs.twimg.com/profile_images/984020634329075717/eSTnqTiA_400x400.jpg);
+    margin: 20px auto;	
 }
+
 #calculator{
 	width: 320px;
 	height: 520px;
@@ -22,6 +23,7 @@ body{
 	border-radius: 8px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 #result{
 	height: 120px;
   color: black;
